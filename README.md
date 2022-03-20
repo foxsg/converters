@@ -22,11 +22,11 @@ $> which ruby
 
 - Download `f2c.rb`
 
-- Create aliases in your bash / zsh profile:
+- Create aliases in your bash / zsh dot profile:
 
 ```
-c2f='ruby ~/your/local/path/to/f2c.rb c2f'
-f2c='ruby ~/your/local/path/to/f2c.rb f2c'
+alias c2f='ruby ~/your/local/path/to/f2c.rb c2f'
+alias f2c='ruby ~/your/local/path/to/f2c.rb f2c'
 ```
 
 ## More
