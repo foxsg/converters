@@ -7,7 +7,7 @@
 # 1 inch equals 2.54 centimeters
 
 # Centimeters to inches
-# 1 cm equals 0.621 inches
+# 1 cm equals 0.3937 inches
 
 # on the command-line, execute
 #    `in2cm <inches>`
@@ -51,7 +51,7 @@ def convert_inches_to_centimeters(inches, arg0)
 end
 
 def convert_centimeters_to_inches(cm, arg0)
-  inches = cm.to_i * 0.621
+  inches = cm.to_i * 0.3937
   print_conversion(cm,inches,arg0)
 end
 
