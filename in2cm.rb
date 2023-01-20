@@ -9,8 +9,6 @@
 # Centimeters to inches
 # 1 cm equals 0.621 inches
 
-
-# to run:
 # on the command-line, execute
 #    `in2cm <inches>`
 # or
@@ -36,14 +34,13 @@
 # arg0 is the command called from the command line
 # arg1 is the units to be converted
 
-# note there is no check if an acutal number was entered or not.
+# n.b., there is no check if an acutal number was entered or not.
 # non-numerals will be converted to integers and thus rendered null
 # and thus interpreted as zero.
 # so, `in2cm yup` will condense yup to null and convert
 # zero inches to zero centimeters
 
 # plenny of room for improvement to this code
-
 
 arg0 = ARGV[0]
 arg1 = ARGV[1]
@@ -59,12 +56,11 @@ def convert_centimeters_to_inches(cm, arg0)
 end
 
 def print_conversion(var, result, arg0)
-  summoner    =  caller_locations.first.label
+  summoner    = caller_locations.first.label
   convertee   = summoner.split('_')[1]
   converted   = summoner.split('_')[3]
   puts "#{var} #{convertee} equals #{result} #{converted}"
 end
-
 
 def convert(arg0, arg1)
   case arg0
@@ -73,7 +69,7 @@ def convert(arg0, arg1)
   when 'cm2in'
     convert_centimeters_to_inches(arg1, arg0)
   else
-    puts "alias not recognized."
+    puts 'alias not recognized.'
   end
 end
 
