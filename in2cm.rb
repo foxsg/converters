@@ -1,4 +1,6 @@
-#!/usr/local/bin/env ruby
+# frozen_string_literal: true
+
+#! /usr/local/bin/env ruby
 
 # convert inches to centimeters and centimeters to inches
 # how we get there:

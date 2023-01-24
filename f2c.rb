@@ -1,4 +1,6 @@
-#!/usr/local/bin/env ruby
+# frozen_string_literal: true
+
+#! /usr/local/bin/env ruby
 
 # convert F to C and C to F
 # how we get there:
