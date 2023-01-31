@@ -1,3 +1,4 @@
+One line of text I really do not want.
 # F2C -- A Commandline Temperature Converter
 
 ## Overview
